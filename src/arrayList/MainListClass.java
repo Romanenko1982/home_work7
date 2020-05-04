@@ -1,6 +1,6 @@
 package arrayList;
 
-public class Main {
+public class MainListClass {
 
   public static void main(String[] args) {
     ListClass list = new ListClass();
