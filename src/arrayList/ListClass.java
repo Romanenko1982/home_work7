@@ -30,9 +30,7 @@ public class ListClass {
     }
   }
 
-
-
-  public void creatList(int n) {
+  public void createList(int n) {
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     for (int i = 0; i < n; i++) {
       try {

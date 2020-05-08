@@ -8,8 +8,8 @@ public class QueueClass {
   private LinkedList<String> myQueue = new LinkedList<>();
 
   public void hospitalQueue() {
-    int count = 11;
-//    System.out.println("В очереди находиться " + .size());
+    int count = 1;
+    System.out.println("В очереди находиться " + myQueue.size());
     System.out.println("Врач начал прием и очередь ожевилась");
     System.out.println();
     while (!myQueue.isEmpty()) {

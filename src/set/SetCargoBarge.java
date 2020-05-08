@@ -54,7 +54,7 @@ public class SetCargoBarge {
       }
     }
     System.out
-        .println("Необходимо убрать груз " + remove.getName() + "весом " + remove.getWeight());
+        .println("Необходимо убрать груз " + remove.getName() + " весом " + remove.getWeight());
     barge.remove(remove);
   }
 
